@@ -10,7 +10,7 @@ function Overview() {
         </h5>
       </div>
       <div className='flex sm:flex-row flex-col justify-between items-center lg:gap-4'>
-        <div className='w-[335px] lg:h-[181px] h-[175px] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-7'>
+        <div className=' w-[100%] sm:w-[335px] lg:h-[181px] h-[175px] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-7'>
           <div className='flex flex-row gap-[10px] relative  '>
             <img className='lg:w-[74px] w-[60px]' src={wiki1} alt='' />
             <div>
