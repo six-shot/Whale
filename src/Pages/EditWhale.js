@@ -14,7 +14,7 @@ function EditWhale() {
           <div className='flex w-[100%]  justify-start'>
             <input
               type='text'
-              className='bg-transparent outline-0 w-[100%]  pl-2 rounded-[8px] items-center h-[39px] border-[1px] -mt-2  border-[#838699]'
+              className='bg-transparent outline-0 w-[100%]  pl-2 rounded-[8px] items-center h-[39px] border-[1px] -mt-2  border-[#838699] focus:outline-0'
               value={details.address}
             />
           </div>
