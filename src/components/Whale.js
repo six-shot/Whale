@@ -51,7 +51,7 @@ function Whale() {
           </button>
           <button
             onClick={handleClick}
-            className='ont-inter w-[107px] h-[44px] bg-white  text-[12px]  sm:text-[14px] font-bold rounded-[10px] text-[#13141A] flex justify-center items-center'
+            className='font-inter w-[107px] h-[44px] bg-white  text-[12px]  sm:text-[14px] font-bold rounded-[10px] text-[#13141A] flex justify-center items-center'
           >
             Add Whale
           </button>

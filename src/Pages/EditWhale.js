@@ -28,6 +28,12 @@ function EditWhale() {
             {details.value}
           </div>
         </div>
+        <button
+          
+            className='font-inter w-[107px] h-[44px] bg-white  text-[12px] mt-3 sm:text-[14px] font-bold rounded-[10px] text-[#13141A] flex justify-center items-center'
+          >
+            Add Whale
+          </button>
       </div>
     </div>
   )
