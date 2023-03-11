@@ -11,20 +11,20 @@ function EditWhale() {
         <h2 className='flex items-center font-bold text-white text-[30px] mb-3 font-lexend'>{`Hi,${details.username}`}</h2>
         <div className='flex flex-col  gap-3  text-white'>
         Address:
-          <div className='flex w-[350px] sm:w-[397px] justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px] -mt-3  border-[#838699]'>
+          <div className='flex w-[100%]  justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px] -mt-3  border-[#838699]'>
         
             {details.address}
           </div>
           Balance:
-          <div className='flex w-[350px] sm:w-[397px] justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px] -mt-3 sm:mt-0 border-[#838699]'>
+          <div className='flex w-[100%] justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px] -mt-3 sm:mt-0 border-[#838699]'>
             {details.quantity}
           </div>
           Percentage:
-          <div className='flex w-[350px] sm:w-[397px] justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px] -mt-3  sm:mt-0 border-[#838699]'>
+          <div className='flex w-[100%]  justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px] -mt-3  sm:mt-0 border-[#838699]'>
             {details.percentage}
           </div>
           Value:
-          <div className='flex w-[350px] sm:w-[397px] justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px] -mt-3 sm:mt-0 border-[#838699]'>
+          <div className='flexw-[100%]  justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px] -mt-3 sm:mt-0 border-[#838699]'>
             {details.value}
           </div>
         </div>
