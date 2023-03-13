@@ -3,9 +3,9 @@ import wiki1 from "../assets/Wiki1.png"
 import { Whales } from "../data/data"
 function Overview() {
   return (
-    <div className='md:px-32 px-4   mb-14'>
-      <div>
-        <h5 className='font-inter text-[#F6F6F6] text-[12px] my-2'>
+    <div className='md:px-32 px-7   mb-14'>
+      <div className="w-[100%]">
+        <h5 className='font-inter text-[#F6F6F6] text-[12px] my-2 text-center sm:text-start sm:mb-2 mb-3'>
           Token Overview for WIki Cat
         </h5>
       </div>
@@ -14,7 +14,7 @@ function Overview() {
           <div className='flex flex-row gap-[10px] relative  '>
             <img className='lg:w-[74px] w-[60px]' src={wiki1} alt='' />
             <div>
-              <h5 className='text-[#838699] text-[14px]  font-normal'>
+              <h5 className='text-[#838699] text-[14px]  font-normal '>
                 Current token Price
               </h5>
               <h4 className='font-space font-bold text-[20px] lg:text-[32px] text-dimWhite mt-2'>

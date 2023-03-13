@@ -6,7 +6,7 @@ import AddWhales from "./Pages/AddWhales"
 import EditWhale from "./Pages/EditWhale"
 function App() {
   return (
-    <div className='w-full '>
+    <div className=' '>
      <Router>
       <Routes>
         <Route path="/" exact  element={<Home/>}/>
