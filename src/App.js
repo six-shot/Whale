@@ -14,7 +14,7 @@ function App() {
         <Route path='/details/:id' element={<EditWhale />} />
       </Routes>
      </Router>
-     jj
+    
     </div>
   )
 }

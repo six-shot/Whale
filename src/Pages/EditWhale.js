@@ -1,6 +1,6 @@
 import React from "react"
 import { Detailss } from "../data/data"
-import { useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import { RiArrowLeftFill, RiArrowLeftLine } from "react-icons/ri"
 import Header from "../components/Header"
 import { Link } from "react-router-dom"
@@ -8,13 +8,17 @@ import { IconContext } from "react-icons/lib"
 function EditWhale() {
   const { id } = useParams()
   const details = Detailss.find((details) => details.id === id)
+  const navigate = useNavigate();
+const handleClick=()=>{
+  navigate("/")
+}
 
   return (
     <div>
       <Header />
-      <div className='px-7 mt-5'>
+      <div className='px-7 mt-5 '>
         <IconContext.Provider value={{ color: "white", size: "30px" }}>
-          <RiArrowLeftLine />
+          <RiArrowLeftLine onClick={handleClick} />
         </IconContext.Provider>
         <div className=' w-[100%] sm:w-[335px]  h-[260px] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-7 mt-5'>
           <div className=' '>
@@ -36,7 +40,7 @@ function EditWhale() {
             </div>
             <div className='mt-2'>
               <h5 className='text-[#838699] text-[14px]  font-normal '>
-                Username
+               Phonenumber
               </h5>
               <h4 className='font-space font-bold text-[16px] text-dimWhite mt-1 '>
                 {details.username}
@@ -58,7 +62,7 @@ function EditWhale() {
             ${details.quantity}
           </h4>
         </div>
-        <div className='mt-10'>
+        <div className='mt-10 overflow-x-scroll'>
           <table style={{}}>
             <tr className='bg-[#101116] '>
               <td
