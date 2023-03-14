@@ -38,17 +38,17 @@ function EditWhale() {
   return (
     <div>
       <Header />
-      <div className='px-7 mt-5 '>
+      <div className='px-7 md:px-32 mt-5 '>
         <IconContext.Provider value={{ color: "white", size: "30px" }}>
           <BsArrowLeft onClick={handleClick} />
         </IconContext.Provider>
-        <div className=' w-[100%] sm:w-[335px]  h-[260px] bg-[#1A1B23] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-7 mt-5'>
+        <div className=' w-[100%] sm:w-[708px]  h-[260px] sm:h-[298px] bg-[#1A1B23] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-7 mt-5'>
           <div className=' '>
             <div>
               <h5 className='text-[#838699] text-[14px]  font-normal '>
                 Address
               </h5>
-              <h4 className='font-space font-bold text-[16px] text-dimWhite mt-2 border-b border-[#41434F] pb-1 overme'>
+              <h4 className='font-space font-bold text-[16px] sm:text-[32px] text-dimWhite mt-2 border-b border-[#41434F] pb-1 overme '>
                 {details.address}
               </h4>
             </div>
@@ -56,7 +56,7 @@ function EditWhale() {
               <h5 className='text-[#838699] text-[14px]  font-normal '>
                 Username
               </h5>
-              <h4 className='font-space font-bold text-[16px] text-dimWhite mt-1 '>
+              <h4 className='font-space font-bold text-[16px] sm:text-[20px] text-dimWhite mt-1 '>
                 {details.username}
               </h4>
             </div>
@@ -64,13 +64,13 @@ function EditWhale() {
               <h5 className='text-[#838699] text-[14px]  font-normal '>
                 Phonenumber
               </h5>
-              <h4 className='font-space font-bold text-[16px] text-dimWhite mt-1 '>
+              <h4 className='font-space font-bold text-[16px] sm:text-[20px] text-dimWhite mt-1 '>
                 {details.username}
               </h4>
             </div>
             <button
               onClick={handleOpen}
-              className='font-inter text-[14px] mt-2 font-bold text-white w-[77px] h-[33px]  flex justify-center items-center bg-[#5253E9] rounded-[10px]'
+              className='font-inter text-[14px] sm:text-[20px] mt-2 font-bold text-white w-[77px] sm:w-[129px] sm:h-[49px] h-[33px]  flex justify-center items-center bg-[#5253E9] rounded-[10px]'
             >
               Edit
             </button>
@@ -97,7 +97,7 @@ function EditWhale() {
                 variant='h6'
                 component='h2'
               >
-                <div className=' w-[100%] sm:w-[335px]  h-[300px] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-7 mt-5'>
+                <div className=' w-[100%] sm:w-[708px]  h-[300px] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-7 mt-5'>
                   <div className=' '>
                     <div>
                       <h5 className='text-[#838699] text-[14px]  font-normal '>
@@ -143,7 +143,7 @@ function EditWhale() {
           </Fade>
         </Modal>
 
-        <div className=' w-[100%] h-[108px] border border-[#3C3E4D] rounded-[10px] p-4  mt-4 '>
+        <div className=' w-[100%] sm:w-[698px] h-[108px] border border-[#3C3E4D] rounded-[10px] p-4  mt-4 '>
           <h5 className='text-[12px] font-inter font-normal text-[#838699]'>
             Balance
           </h5>
@@ -156,7 +156,7 @@ function EditWhale() {
         </div>
       </div>
 
-      <div className='mt-10 pl-7  overflow-x-scroll'>
+      <div className='mt-10 pl-7 md:px-32  overflow-x-scroll sm:overflow-hidden'>
         <table style={{}}>
           <tr className='bg-[#101116] '>
             <td

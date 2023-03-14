@@ -10,7 +10,7 @@ function Overview() {
         </h5>
       </div>
       <div className='flex sm:flex-row flex-col justify-between items-center lg:gap-4'>
-        <div className=' w-[100%] sm:w-[335px] lg:h-[181px] h-[175px] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-7'>
+        <div className=' w-[100%] sm:w-[335px] lg:h-[181px] h-[175px] bg-[#1A1B23] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-7'>
           <div className='flex flex-row gap-[10px] relative  '>
             <img className='lg:w-[74px] w-[60px]' src={wiki1} alt='' />
             <div>
@@ -44,7 +44,7 @@ function Overview() {
         <div className='flex flex-col sm:flex-row flex-wrap w-[100%] mt-3 sm:mt-0  sm:w-[800px] lg:w-[550px] sm:px-4 px-0 gap-2  md:gap-4'>
           {Whales.map((items) => {
             return (
-              <div className=' sm:w-[220px] h-[82px] border border-[#3C3E4D] rounded-[10px] p-4'>
+              <div className=' sm:w-[220px] h-[82px] bg-[#1A1B23]  border border-[#3C3E4D] rounded-[10px] p-4'>
                 <h5 className='text-[12px] font-inter font-normal text-[#838699]'>
                   {items.title}
                 </h5>

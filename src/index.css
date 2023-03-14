@@ -19,13 +19,7 @@ width: 100%;
 height:1px;
 
 }
-.overme {
-  width: 287px;
-  overflow:hidden; 
-  white-space:nowrap; 
-  text-overflow: ellipsis;
-  color: #21D4AF;
-}
+
 
 .inputbox{
   position: relative;
@@ -56,4 +50,14 @@ top: -5px;
   font-size: 1em;
   padding:0 35px 0 5px;
   color: #fff;
+}
+@media screen and (max-width:768px){
+  .overme {
+    width: 287px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+    color: #21D4AF;
+  }
+  
 }
