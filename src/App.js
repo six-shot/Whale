@@ -4,6 +4,7 @@ import Home from "./Pages/Home"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import AddWhales from "./Pages/AddWhales"
 import EditWhale from "./Pages/EditWhale"
+
 function App() {
   return (
     <div className=' '>
@@ -14,6 +15,7 @@ function App() {
         <Route path='/details/:id' element={<EditWhale />} />
       </Routes>
      </Router>
+
     
     </div>
   )
