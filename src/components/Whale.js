@@ -101,12 +101,12 @@ function Whale() {
               >
                  <div>
       <IconContext.Provider value={{ color: "white", size: "20px" }}>
-        <div className=' w-[100%]   h-[350px] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-5 mt-5'>
-          <h2 className='font-bold text-white text-[30px] font-lexend'>
+        <div className=' w-[100%]   h-[340px] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-5 mt-5'>
+          <h2 className='font-bold text-white text-[20px] mb-3 font-space'>
             ADD TO WHALES
           </h2>
           <div className='flex flex-col gap-3'>
-            <div className='flex w-[100%] text-[16px]  justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px] mt-3 sm:mt-0 border-[#838699]'>
+            <div className='flex w-[100%] text-[16px]  justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px]  sm:mt-0 border-[#838699]'>
               <AiOutlineUser className='' />
               <input
                 type='text'
@@ -114,7 +114,7 @@ function Whale() {
                 placeholder='Username'
               />
             </div>
-            <div className='flex w-[100%] text-[16px] justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px] mt-3 sm:mt-0 border-[#838699]'>
+            <div className='flex w-[100%] text-[16px] justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px]  sm:mt-0 border-[#838699]'>
               <BsCurrencyDollar className='' />
               <input
                 type='text'
@@ -122,7 +122,7 @@ function Whale() {
                 placeholder='Balance'
               />
             </div>
-            <div className='flex w-[100%] text-[16px]  justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px] mt-3 sm:mt-0 border-[#838699]'>
+            <div className='flex w-[100%] text-[16px]  justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px]  sm:mt-0 border-[#838699]'>
               <AiOutlineCopy className='' />
               <input
                 type='text'
@@ -130,7 +130,7 @@ function Whale() {
                 placeholder='Address'
               />
             </div>
-            <div className='flex w-[100%] text-[16px]  justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px] mt-3 sm:mt-0 border-[#838699]'>
+            <div className='flex w-[100%] text-[16px]  justify-start pl-2 rounded-[8px] items-center h-[39px] border-[1px]  sm:mt-0 border-[#838699]'>
               <AiOutlinePhone className='' />
               <input
                 type='text'
@@ -139,10 +139,10 @@ function Whale() {
               />
             </div>
           </div>
-          <div className=' mt-5'>
-            <button  className='font-inter w-[107px] h-[44px] bg-white  text-[12px] sm:text-[14px] font-bold rounded-[10px] text-[#13141A] flex gap-1 justify-center items-center'>
-            Submit
-            </button>
+          <div className=' mt-3'>
+          <button className='font-inter text-[14px] mt-3 font-bold text-white w-[77px] h-[33px]  sm:w-[107px] sm:h-[44px]  flex justify-center items-center bg-[#5253E9] rounded-[10px]'>
+                      Cancel
+                    </button>
           
           </div>
         </div>

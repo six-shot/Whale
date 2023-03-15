@@ -97,7 +97,7 @@ function EditWhale() {
                 variant='h6'
                 component='h2'
               >
-                <div className=' w-[100%]   h-[300px] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-5 mt-5'>
+                <div className=' w-[100%]   h-[310px] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-5 mt-5'>
                   <div className=' '>
                     <div>
                       <h5 className='text-[#838699] text-[14px]  font-normal '>
@@ -133,7 +133,7 @@ function EditWhale() {
                       </div>
                     </div>
 
-                    <button className='font-inter text-[14px] mt-3 font-bold text-white w-[77px] h-[33px]  flex justify-center items-center bg-[#5253E9] rounded-[10px]'>
+                    <button className='font-inter text-[14px] mt-5 font-bold text-white w-[77px] h-[33px]  sm:w-[107px] sm:h-[44px]  flex justify-center items-center bg-[#5253E9] rounded-[10px]'>
                       Save
                     </button>
                   </div>
