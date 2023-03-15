@@ -110,7 +110,7 @@ function Whale() {
               <AiOutlineUser className='' />
               <input
                 type='text'
-                className='bg-transparent pl-3 outline-none text-[#3C3E4D] w-[100%] placeholder:text-[#3C3E4D]'
+                className='font-space bg-transparent pl-3 outline-none text-[#3C3E4D] w-[100%] placeholder:text-[#3C3E4D]'
                 placeholder='Username'
               />
             </div>
@@ -118,7 +118,7 @@ function Whale() {
               <BsCurrencyDollar className='' />
               <input
                 type='text'
-                className='bg-transparent pl-3 outline-none text-[#3C3E4D] w-[100%] placeholder:text-[#3C3E4D]'
+                className='font-space bg-transparent pl-3 outline-none text-[#3C3E4D] w-[100%] placeholder:text-[#3C3E4D]'
                 placeholder='Balance'
               />
             </div>
@@ -126,7 +126,7 @@ function Whale() {
               <AiOutlineCopy className='' />
               <input
                 type='text'
-                className='bg-transparent pl-3 outline-none text-[#3C3E4D] w-[100%] placeholder:text-[#3C3E4D]'
+                className='font-space bg-transparent pl-3 outline-none text-[#3C3E4D] w-[100%] placeholder:text-[#3C3E4D]'
                 placeholder='Address'
               />
             </div>
@@ -134,7 +134,7 @@ function Whale() {
               <AiOutlinePhone className='' />
               <input
                 type='text'
-                className='bg-transparent pl-3 outline-none text-[#3C3E4D] w-[100%] placeholder:text-[#3C3E4D]'
+                className='font-space bg-transparent pl-3 outline-none text-[#3C3E4D] w-[100%] placeholder:text-[#3C3E4D]'
                 placeholder='Phone Number'
               />
             </div>
