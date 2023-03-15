@@ -97,7 +97,7 @@ function EditWhale() {
                 variant='h6'
                 component='h2'
               >
-                <div className=' w-[100%]   h-[300px] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-7 mt-5'>
+                <div className=' w-[100%]   h-[300px] border border-[#5253E9] rounded-[20px] flex flex-col px-4 lg:py-6 py-5 mt-5'>
                   <div className=' '>
                     <div>
                       <h5 className='text-[#838699] text-[14px]  font-normal '>
