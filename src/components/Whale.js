@@ -139,12 +139,14 @@ function Whale() {
               />
             </div>
           </div>
-          <div className=' mt-3'>
-          <button className='font-inter text-[14px] mt-3 font-bold text-white w-[77px] h-[33px]  sm:w-[107px] sm:h-[44px]  flex justify-center items-center bg-[#5253E9] rounded-[10px]'>
-                    Submit
-                    </button>
-          
-          </div>
+          <div className=' mt-3 flex justify-between w-[100%]'>
+                          <button onClick={handleClose} className='font-inter text-[14px] mt-3 font-bold text-white w-[77px] h-[33px]  sm:w-[107px] sm:h-[44px]  flex justify-center items-center border border-[#5253E9] rounded-[10px]'>
+                            Cancel
+                          </button>
+                          <button className='font-inter text-[14px] mt-3 font-bold text-white w-[77px] h-[33px]  sm:w-[107px] sm:h-[44px]  flex justify-center items-center bg-[#5253E9] rounded-[10px]'>
+                            Submit
+                          </button>
+                        </div>
         </div>
       </IconContext.Provider>
     </div>
