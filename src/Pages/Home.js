@@ -1,9 +1,10 @@
 import React from "react"
-import Details from "../components/DetailsWiki"
+
 import Header from "../components/Header"
 import Overview from "../components/OverviewWiki"
-import Pagination from "../components/Pagination"
+
 import Whale from "../components/Whale"
+import Users from "../components/Users"
 
 
 function Home() {
@@ -13,9 +14,9 @@ function Home() {
         <Header />
         <Whale />
         <Overview />
-        <Details />
+      <Users/>
 
-        <Pagination />
+     
      
     </div>
   )

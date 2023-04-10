@@ -2,7 +2,7 @@
 import "./App.css"
 import Home from "./Pages/Home"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-
+import Rerr from "./Pages/rerr"
 import EditWhale from "./Pages/EditWhale"
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
         <Route path="/" exact  element={<Home/>}/>
         
         <Route path='/details/:id' element={<EditWhale />} />
+        <Route path='new' element={<Rerr/>} />
       </Routes>
      </Router>
 
